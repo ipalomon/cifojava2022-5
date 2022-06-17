@@ -27,12 +27,6 @@ public class LibraryWebController {
         return "showBooks";
     }
 
-    @RequestMapping("/getBooks")
-    public String getAxiosWeb() {
-        //load a template in axiosFormat
-        return "axiosFormat/getBooks";
-    }
-
     @RequestMapping("/newBook")
     public String newBook() {
         return "newBook";
